@@ -1,2 +1,2 @@
-# react-series
-React With .NET Core and MySQL
+# 
+React With .NET Core and MySQL - Creating React Project
