@@ -1,3 +1,3 @@
-# React - series - part3-end
-## React With .NET Core and MySQL - HTTP, Axios and Redux
-https://code-maze.com/react-dot-net-core-http-axios-redux/
+# React - series - part4-end
+## React With .NET Core and MySQL - Lazy Loading and HOC Component
+https://code-maze.com/react-dot-net-core-lazy-loading-hoc/
