@@ -1,5 +1,6 @@
 import * as actionTypes from './actionTypes';
 import axios from '../../axios/aixos';
+import * as errorHandlerActions from './errorHandlerActions';
 
 const getDataSuccess = (data) => {
     return {
@@ -15,7 +16,7 @@ export const getData = (url, props) => {
             dispatch(getDataSuccess(response.data));
         })
         .catch(error => {
-            //TODO: handle the error when implemented
+            dispatch(errorHandlerActions.handleHTTPError(error, props));
         })
     }
 }
@@ -34,7 +35,7 @@ export const postData = (url, obj, props) => {
             dispatch(postDataSuccess(response));
         })
         .catch(error => {
-            //TODO: handle the error when implemented
+            dispatch(errorHandlerActions.handleHTTPError(error, props));
         })
     }
 }
@@ -53,7 +54,7 @@ export const putData = (url, obj, props) => {
             dispatch(putDataSuccess(response));
         })
         .catch(error => {
-            //TODO: handle the error when implemented
+            dispatch(errorHandlerActions.handleHTTPError(error, props));
         })
     }
 }
@@ -72,7 +73,7 @@ export const deleteData = (url, props) => {
             dispatch(deleteDataSuccess(response));
         })
         .catch(error => {
-            //TODO: handle the error when implemented
+            dispatch(errorHandlerActions.handleHTTPError(error, props));
         })
     }
 }
