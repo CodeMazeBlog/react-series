@@ -25,7 +25,7 @@ class App extends Component {
             <Route path="/ownerDetails/:id" component={OwnerDetails} />
             <Route path="/createOwner" component={CreateOwner} />
             <Route path="/500" component={internalServer} />
-            <Route path="*" component={NotFound} />
+            <Route pat="*" component={NotFound} />
           </Switch>
         </Layout>
       </BrowserRouter>

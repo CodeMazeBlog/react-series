@@ -1,3 +1,3 @@
-# React - series - part6-end
-## React With .NET Core and MySQL - Dynamic Form Creation and Modal Components
-https://code-maze.com/react-dot-net-core-dynamic-forms-modals
+# React - series - part7-end
+## React With .NET Core and MySQL - Form Validation and Handling POST request
+https://code-maze.com/react-dotnetcore-form-validation-post-request

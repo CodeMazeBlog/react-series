@@ -23,6 +23,14 @@ const executeOtherError = (state, action) => {
     };
 }
 
+const executeCloseErrorModal = (state, action) => {
+    return {
+        ...state,
+        showErrorModal: false,
+        errorMessage: ''
+    }
+}
+
 const reducer = (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.HTTP_404_ERROR:
@@ -31,6 +39,8 @@ const reducer = (state = initialState, action) => {
             return execute500(state, action);
         case actionTypes.HTTP_OTHER_ERROR:
             return executeOtherError(state, action);
+        case actionTypes.CLOSE_ERROR_MODAL:
+            return executeCloseErrorModal(state, action);
         default:
             return state;
     }

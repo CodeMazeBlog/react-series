@@ -32,3 +32,9 @@ export const handleHTTPError = (error, props) => {
         return executeOtherErrorHandler(error);
     }
 }
+
+export const closeErrorModal = () => {
+    return {
+        type: actionTypes.CLOSE_ERROR_MODAL
+    }
+}
