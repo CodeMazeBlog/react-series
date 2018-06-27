@@ -1,3 +1,3 @@
-# React - series - part7-end
-## React With .NET Core and MySQL - Form Validation and Handling POST request
+# React - series - part8-end
+## React With .NET Core and MySQL - Dynamic Form and PUT Request
 https://code-maze.com/react-dotnetcore-form-validation-post-request

@@ -12,7 +12,7 @@ import * as errorHandlerActions from '../../../store/actions/errorHandlerActions
 class CreateOwner extends Component {
     state = {
         ownerForm: {},
-        isFormValid: false
+        isFOrmValid: false
     }
 
     componentWillMount = () => {
@@ -74,7 +74,7 @@ class CreateOwner extends Component {
                 </Form>
                 <SuccessModal show={this.props.showSuccessModal} 
                               modalHeaderText={'Success message'} 
-                              modalBodyText={'Action completed successfully'}
+                              modalBodyText={'Action completed successfylly'}
                               okButtonText={'OK'} 
                               successClick={() => this.props.onCloseSuccessModal('/owner-List', { ...this.props })} />
 
