@@ -1,5 +1,5 @@
 import * as actionTypes from './actionTypes';
-import axios from '../../axios/aixos';
+import axios from '../../axios/axios';
 
 const getDataSuccess = (data) => {
     return {
