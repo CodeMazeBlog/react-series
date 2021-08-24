@@ -1,16 +1,17 @@
 import React from 'react';
-import { Grid, Row } from 'react-bootstrap';
+import Row  from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container'
 
 const layout = (props) => {
     return (
-        <Grid>
+        <Container>
             <Row>
                 This is the place for the navigation component.
             </Row>
             <main>
                 {props.children}
             </main>
-        </Grid>
+        </Container>
     )
 }
 
